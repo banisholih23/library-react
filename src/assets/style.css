@@ -74,6 +74,10 @@ html, body, #root{
   margin-bottom: 35px;
 }
 
+.login .form .form-login .input{
+  color: #555;
+}
+
 .login .form .form-login .input .email{
   display: block;
   border: 1px solid #E0E0E0;
@@ -195,6 +199,7 @@ html, body, #root{
 
 .register .form{
   width: 450px;
+  
 }
 
 .register .form{
@@ -204,11 +209,13 @@ html, body, #root{
 
 .register .form .brand{
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  padding-top: 10px;
+  padding-left: 340px;
 }
 
 .regsiter .form .brand .logo{
-  padding: 10px;
+  padding-left: 15px;
 }
 
 .register .form .form-register{
@@ -228,9 +235,10 @@ html, body, #root{
   margin-bottom: 35px;
 }
 
-/* .register .form .form-register .input{
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
-} */
+.register .form .form-register .input{
+  /* margin-left: 200px; */
+  color: #555;
+}
 
 .register .form .form-register .input .username{
   display: block;
@@ -293,7 +301,7 @@ html, body, #root{
 .register .form .form-register .submit{
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .register .form .form-register .submit .login, .register .form .form-register .submit .signup{
